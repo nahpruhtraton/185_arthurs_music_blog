@@ -1,0 +1,71 @@
+body{
+    background-color: #f5aba8;
+}
+
+h1{
+    font-family: "Monaco", Courier, monospace
+}
+
+nav{
+    padding: 0;
+    background-color: #292727;
+}
+
+nav a{
+    display: inline-block;
+    padding: 20px 10px;
+    color: white;
+    font-family: "Monaco", Courier, monospace;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color: #534f4f
+}
+
+form{
+    font-family: "Monaco", Courier, monospace
+}
+
+.grid_container{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr 5fr;
+    background-color: white;
+    border: 2px solid black;
+    padding: 0px;
+}
+
+.text_grid{
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: white;
+    padding: 0px;
+}
+
+.media_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #f5aba8;
+    grid-gap: 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.media_grid > img {
+    display: flex;
+    max-width: 400px;
+    max-height: 400px;
+    width: auto;
+    height: auto;
+}
+
+.grid_item{
+    background-color: white;
+    border: 1px solid black;
+    padding: 1px;
+    font-size: 24px;
+    text-align: center;
+    font-family: "Monaco", Courier, monospace
+}
