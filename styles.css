@@ -6,6 +6,18 @@ h1{
     font-family: "Monaco", Courier, monospace
 }
 
+main{
+    background :rgb(223, 213, 213);
+    margin: 20px 20px;
+    padding: 10px;
+}
+
+main div{
+    padding: 15px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+}
 nav{
     padding: 0;
     background-color: #292727;
@@ -47,23 +59,11 @@ form{
     padding: 0px;
 }
 
-.media_grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    background-color: #f5aba8;
-    grid-gap: 50px;
-    padding: 10px;
+.flex-center{
     display: flex;
     justify-content: center;
 }
 
-.media_grid > img {
-    display: flex;
-    max-width: 400px;
-    max-height: 400px;
-    width: auto;
-    height: auto;
-}
 
 .grid_item{
     background-color: white;
