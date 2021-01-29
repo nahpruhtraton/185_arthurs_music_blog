@@ -21,6 +21,14 @@ main div{
     justify-content: center;
     align-items: center;
 }
+
+main > iframe{
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin: 5px;
+}
+
 nav{
     padding: 0;
     background-color: #292727;
@@ -73,12 +81,11 @@ form{
 .img-box > img{
     border: 1px solid salmon;
     border-radius: 4px;
-    padding: 5px;
+    padding: 15px;
+    margin: 5px;
     width: 150px;
-
     max-width: 100%;
     height: auto;
-    
 }
 
 .img-box > img:hover{
